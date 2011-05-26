@@ -10,11 +10,14 @@
 # Author: Stefan Ritter <xeno@thehappy.de>
 # Description: Generate music genres
 
-from random import choice
+from random import choice, randint
 
 subgroup = ["medieval", "death", "black", "hard", "progressive", "symphonic", "viking", "pagan", "gangsta", "experimental", "alternative", "minimal", "dark", "synth", "future", "body", "christian", "indian", "chinese", "euro", "happy", "power", "fusion", "free", "speed", "trash", "extreme", "surf", "brit", "emo", "electronic", "neo", "noise", "psychedelic", "post", "conscious", "battle", "east coast", "west coast", "glam", "heavy", "avantgarde", "gothic", "groove", "funk", "nu", "melodic", "celtic", "industrial", "latin", "traditional", "harmonica", "dirty", "gospel", "balkan", "lounge", "Rotterdam", "sunshine", "street", "skate", "garage", "horror", "Detroit", "ghetto", "acid"]
 group = ["core", "metal", "pop", "punk", "country", "rap", "western", "ambient", "techno", "house", "trance", "dance", "beat", "dubstep", "samba", "chiptune", "jazz", "ska", "soul", "aggrotech", "rave", "oi!", "bluegrass", "hip-hop", "grunge", "rockabilly", "industrial", "blues", "humppa", "reggae", "dancehall", "dub", "Schranz"]
 
-print choice(subgroup), choice(subgroup), choice(group)
+rand = randint(0, 2)
+if rand is 0: print choice(subgroup), choice(subgroup) + choice(group)
+if rand is 1: print choice(subgroup), choice(subgroup), choice(group)
+if rand is 2: print choice(subgroup), choice(group)
 
 # vim: set sw=4 tw=0 ts=4 expandtab:
