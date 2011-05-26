@@ -16,7 +16,7 @@ subgroup = ["medieval", "death", "black", "hard", "progressive", "symphonic", "v
 group = ["core", "metal", "pop", "punk", "country", "rap", "western", "ambient", "techno", "house", "trance", "dance", "beat", "dubstep", "samba", "chiptune", "jazz", "ska", "soul", "aggrotech", "rave", "oi!", "bluegrass", "hip-hop", "grunge", "rockabilly", "industrial", "blues", "humppa", "reggae", "dancehall", "dub", "Schranz"]
 
 rand = randint(0, 1)
-if rand is 1: print choice(subgroup), choice(subgroup), choice(group)
-if rand is 2: print choice(subgroup), choice(group)
+if rand is 0: print choice(subgroup), choice(subgroup), choice(group)
+if rand is 1: print choice(subgroup), choice(group)
 
 # vim: set sw=4 tw=0 ts=4 expandtab:
