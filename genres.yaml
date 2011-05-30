@@ -1,8 +1,10 @@
 cities:
 - Berlin
+- Bakersfield
 - Detroit
 - Gothenburg
 - London
+- New Orleans
 - Rio
 - Rotterdam
 - San Francisco
@@ -15,12 +17,15 @@ group:
 - chiptune
 - core
 - country
+- cumbia
 - dance
 - dancehall
 - drum and bass
 - dub
 - dubstep
+- flamenco
 - grunge
+- gospel
 - hip-hop
 - house
 - humppa
@@ -28,6 +33,7 @@ group:
 - jazz
 - metal
 - oi!
+- polka
 - pop
 - punk
 - rap
@@ -60,6 +66,7 @@ subgroup:
 - christian
 - comedy
 - conscious
+- cow
 - crust
 - dark
 - death
@@ -67,6 +74,7 @@ subgroup:
 - doom
 - drone
 - east coast
+- electroclash
 - electronic
 - emo
 - euro
@@ -132,3 +140,4 @@ subgroup:
 - viking
 - vocal
 - west coast
+- world
