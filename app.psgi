@@ -5,6 +5,7 @@ use warnings;
 
 use Data::Random qw(rand_enum);
 use Plack::App::File;
+use Plack::Builder;
 use YAML::XS qw(LoadFile);
 use Template;
 
@@ -38,13 +39,16 @@ sub generate_genre {
   return join ' ', map { ucfirst } @genre;
 }
 
-my $app = sub {
-  my $genre = generate_genre();
-  my $out = '';
-  $template->process('index.tt', { genre => $genre }, \$out);
-  return [
-    200,
-    [ 'Content-Type' => 'text/html' ],
-    [ $out ]
-  ];
+builder {
+  mount '/static' => Plack::App::File->new(root => 'static')->to_app(),
+  mount '/' => sub {
+    my $genre = generate_genre();
+    my $out = '';
+    $template->process('index.tt', { genre => $genre }, \$out);
+    return [
+      200,
+      [ 'Content-Type' => 'text/html' ],
+      [ $out ]
+    ];
+  },
 }
