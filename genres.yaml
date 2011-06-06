@@ -2,7 +2,9 @@ cities:
 - Berlin
 - Bakersfield
 - Detroit
+- Frankfurt
 - Gothenburg
+- Ibiza
 - London
 - New Orleans
 - Rio
@@ -11,6 +13,7 @@ cities:
 group:
 - Aggrotech
 - Ambient
+- Balearic
 - Beat
 - Bluegrass
 - Blues
@@ -23,9 +26,12 @@ group:
 - Drum and Bass
 - Dub
 - Dubstep
+- EBM
 - Flamenco
 - Grunge
+- Goa
 - Gospel
+- Hardstyle
 - Hip-hop
 - House
 - Humppa
@@ -44,13 +50,23 @@ group:
 - Schranz
 - Ska
 - Soul
+- Techhouse
 - Techno
+- Tekkno
 - Trance
+- Triphop
+- Twostep
 - Western
 subgroup:
+- 30s
+- 40s
+- 50s
+- 60s
+- 70s
 - 80s
 - Acid
 - Alternative
+- Ambient
 - Anatolian
 - Arena
 - Art
@@ -95,14 +111,15 @@ subgroup:
 - Garage
 - Ghetto
 - Glam
-- Goa
 - Gospel
 - Gothic
 - Grind
 - Groove
 - Happy
 - Hard
+- Hardcore
 - Harmonica
+- Handsup
 - Heavy
 - Horror
 - Indian
@@ -142,5 +159,6 @@ subgroup:
 - Trash
 - Viking
 - Vocal
+- Wave
 - West Coast
 - World
