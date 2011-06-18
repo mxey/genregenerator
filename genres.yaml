@@ -13,7 +13,6 @@ cities:
 group:
 - Aggrotech
 - Ambient
-- Balearic
 - Beat
 - Bluegrass
 - Blues
@@ -73,6 +72,7 @@ subgroup:
 - Australian
 - Australian
 - Avantgarde
+- Balearic
 - Balkan
 - Battle
 - Black
@@ -123,6 +123,8 @@ subgroup:
 - Heavy
 - Horror
 - Indian
+- Indie
+- Independent
 - Industrial
 - Instrumental
 - Latin
@@ -146,6 +148,7 @@ subgroup:
 - Skate
 - Sludge
 - Southern
+- Space
 - Speed
 - Stoner
 - Street
