@@ -4,9 +4,8 @@ config.yml
 environments/development.yml
 environments/production.yml
 views/index.tt
-views/layouts/main.tt
 MANIFEST.SKIP
-lib/genregenerator.pm
+lib/App/Genregenerator.pm
 public/css/style.css
 public/css/error.css
 public/404.html

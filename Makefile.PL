@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME                => 'genregenerator',
     AUTHOR              => q{YOUR NAME <youremail@example.com>},
-    VERSION_FROM        => 'lib/genregenerator.pm',
+    VERSION_FROM        => 'lib/App/Genregenerator.pm',
     ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
