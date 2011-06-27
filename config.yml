@@ -1,0 +1,9 @@
+# Your application's name
+appname: "genregenerator"
+
+# when the charset is set to UTF-8 Dancer will handle for you
+# all the magic of encoding and decoding. You should not care
+# about unicode within your app when this setting is set (recommended).
+charset: "UTF-8"
+
+template: "simple"
