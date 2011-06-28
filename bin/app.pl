@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
 use Dancer;
-use FindBin;
+use autodie qw(chdir);
+use Cwd qw(abs_path);
 
-chdir "$FindBin::Bin/..";
+chdir abs_path(dirname(__FILE__) . '/..');
 require App::Genregenerator;
 
 dance;
