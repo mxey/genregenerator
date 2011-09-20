@@ -236,7 +236,7 @@ __DATA__
       Created by
       <a href="http://www.thehappy.de/~xeno/"> xeno </a>
       and
-      <a href="http://ghosthacking.net"> mxey </a>
+      <a href="http://mxey.net"> mxey </a>
       |
       <a href="htts://github.com/mxey/genregenerator"> fork me on github </a>
     </div>
