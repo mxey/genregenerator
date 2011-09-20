@@ -238,7 +238,7 @@ __DATA__
       and
       <a href="http://mxey.net"> mxey </a>
       |
-      <a href="htts://github.com/mxey/genregenerator"> fork me on github </a>
+      <a href="https://github.com/mxey/genregenerator"> fork me on github </a>
     </div>
 
   </body>
