@@ -1,4 +1,4 @@
-genres = [
+var genres = [
   'Aggrotech',
   'Ambient',
   'Beat',
@@ -44,7 +44,7 @@ genres = [
   'Triphop',
   'Twostep',
   'Western',
-]
+];
 
 subgenres = [
   '30s',
@@ -156,7 +156,7 @@ subgenres = [
   'Wave',
   'West Coast',
   'World',
-]
+];
 
 cities = [
   'Berlin',
@@ -170,26 +170,30 @@ cities = [
   'Rio',
   'Rotterdam',
   'San Francisco',
-]
-
-rand_choose = (array) ->
-  array[Math.floor(Math.random() * array.length)]
-
-chance = (percent) ->
-  Math.floor(Math.random() * 100) < percent
-
-generate_genre = ->
-  parts = []
-  parts.push rand_choose(cities) if chance 20
-  parts.push rand_choose(subgenres) if chance 70
-  parts.push rand_choose(subgenres)
-  parts.push rand_choose(genres)
-  genre = parts.join(' ')
-  $('#genre a').text(genre)
-  $('title').text('Listen to ' + genre)
-
-$(document).ready ->
-  $('#genre a').click(generate_genre)
-  generate_genre()
+];
 
 
+function rand_choose(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+function chance(percent) {
+  return Math.floor(Math.random() * 100) < percent;
+}
+
+function generate_genre() {
+  var parts = [];
+  if (chance(20)) parts.push(rand_choose(cities));
+  if (chance(70)) parts.push(rand_choose(subgenres));
+  parts.push(rand_choose(subgenres));
+  parts.push(rand_choose(genres));
+  
+  var genre = parts.join(' ');
+  $('#genre a').text(genre);
+  return $('title').text('Listen to ' + genre);
+}
+
+$(document).ready(function() {
+  $('#genre a').click(generate_genre);
+  generate_genre();
+});
