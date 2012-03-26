@@ -46,7 +46,7 @@ var genres = [
   'Western',
 ];
 
-subgenres = [
+var subgenres = [
   '30s',
   '40s',
   '50s',
@@ -158,7 +158,7 @@ subgenres = [
   'World',
 ];
 
-cities = [
+var cities = [
   'Berlin',
   'Bakersfield',
   'Detroit',
