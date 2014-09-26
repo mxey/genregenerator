@@ -11,6 +11,7 @@ var genres = [
   'Dance',
   'Dancehall',
   'Drum and Bass',
+  'Dream',
   'Dub',
   'Dubstep',
   'EBM',
