@@ -81,6 +81,7 @@ var subgenres = [
   'Dirty',
   'Doom',
   'Drone',
+  'Dream',
   'East Coast',
   'Electroclash',
   'Electronic',
